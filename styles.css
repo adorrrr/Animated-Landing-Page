@@ -47,7 +47,7 @@ nav {
 .nav_logo a {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--max-width);
+    color: var(--white);
 }
 .nav_menu_button {
     font-size: 1.5rem;
@@ -69,7 +69,7 @@ nav {
     background-color: var(--text-dark);
     transition: 0.5s;
     z-index: -1;
-    /* transform: translateY(-100%); */
+    transform: translateY(-100%);
 }
 .nav_links.open {
     transform: translateY(0);
@@ -81,9 +81,23 @@ nav {
 .nav_links a:hover {
     color: var(--white);
 }
-.nav_button{
+.nav_button {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
